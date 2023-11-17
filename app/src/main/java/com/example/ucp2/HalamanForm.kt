@@ -98,12 +98,6 @@ fun HalamanForm(
                 verticalArrangement = Arrangement.SpaceEvenly //atas ke bawah(make evenly biar rata kanan kiri)
 
             ) {
-                Row(
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(horizontal = dimensionResource(R.dimen.padding_medium)),
-                    horizontalArrangement = Arrangement.Start
-                ) {
                     Text(
                         text = "Dosen Pembimbing 1"
                     )
@@ -167,4 +161,3 @@ fun HalamanForm(
             }
         }
     }
-}
